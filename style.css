@@ -73,3 +73,61 @@ gap: 10px;
 .btn:hover{
     border: 1px solid blue;
 }
+
+/* landing page Design css */
+#search-form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+#search-form input[type=text]{
+    padding: 5px 80px;
+    
+}
+#search-form input[type= button]{
+    padding: 5px 20px;
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+#search-form input[type= button]:hover{
+    border: 1px solid blue;
+}
+
+#results{
+     margin: 60px;
+     text-align: center;
+}
+
+
+#result h2{
+font-family: Space Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+}
+
+
+#results li{
+    
+    margin-bottom: 20px;
+    margin: 10px;
+    list-style-type: none;
+    border-bottom:1px solid #ffffff ;
+}
+#results button{
+    margin: 40px;
+    padding: 5px 20px;
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#results button:hover{
+    border: 1px solid blue;
+}
